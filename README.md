@@ -1,5 +1,5 @@
 # sport_channel
-Web-site on Django, html &amp; css.
+Web-application on Django, html &amp; css.
 
 # Установите виртуальное окружение для этого проекта:
 $ python -m venv .venv
