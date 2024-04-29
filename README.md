@@ -9,14 +9,20 @@ sport_channel - веб приложение с каталогом новосте
 
 #### Windows
 ```
-> python -m venv .venv
-> .venv\Scripts\activate
+python -m venv .venv
+.venv\Scripts\activate
 ```
 
 #### Linux
 ```
-$ python3 -m venv .venv
-$ source .venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
++ Установите зависимости:
+
+```
+pip install -r requirements.txt
 ```
 
 + На вашей операционой системе должен быть установлен PostgreSQL
@@ -25,36 +31,36 @@ $ source .venv/bin/activate
 
 #### Windows
 ```
-> python manage.py migrate
+python manage.py migrate
 ```
 
 #### Linux
 ```
-$ python3 manage.py migrate
+python3 manage.py migrate
 ```
 
 + Создайте суперпользователя для  входа в админ панель:
 
 #### Windows
 ```
-> python manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 #### Linux
 ```
-$ python3 manage.py createsuperuser
+python3 manage.py createsuperuser
 ```
 
 + Запустите приложение:
 
 #### Windows
 ```
-> python manage.py runserver
+python manage.py runserver
 ```
 
 #### Linux
 ```
-$ python3 manage.py runserver
+python3 manage.py runserver
 ```
 
 + Откройте браузер и перейдите по адресу http://127.0.0.1:8000/main/. Поздравляю, теперь вы можете пользоваться моим приложением :wink:
@@ -62,6 +68,26 @@ $ python3 manage.py runserver
 
 ## Главная страница
 ![](https://github.com/GGGamzat/sport_channel/blob/main/images/1.png)
+
+# Для тех кому лень запускать приложение, чтобы насладиться визуалом:
+
+Главная    |  Профиль
+:-------------------------:|:-------------------------:
+![](https://github.com/GGGamzat/sport_channel/blob/main/images/1.png)  |  ![](https://github.com/GGGamzat/sport_channel/blob/main/images/4.png)  
+
+
+Регистрация   |  Авторизация
+:-------------------------:|:-------------------------:
+![](https://github.com/GGGamzat/sport_channel/blob/main/images/2.png)  |  ![](https://github.com/GGGamzat/sport_channel/blob/main/images/3.png)
+
+
+Товары    |  Подробнее товар
+:-------------------------:|:-------------------------:
+![](https://github.com/GGGamzat/sport_channel/blob/main/images/6.png) |  ![](https://github.com/GGGamzat/sport_channel/blob/main/images/7.png)
+
+Новости   |  Подробнее новость
+:-------------------------:|:-------------------------:
+![](https://github.com/GGGamzat/sport_channel/blob/main/images/5.png) |  ![](https://github.com/GGGamzat/sport_channel/blob/main/images/9.png)
 
 # Автор
 
